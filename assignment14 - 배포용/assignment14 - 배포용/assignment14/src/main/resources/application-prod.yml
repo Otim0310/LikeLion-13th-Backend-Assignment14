@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  forward-headers-strategy: framework
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+weather:
+  api:
+    base-url: https://apis.data.go.kr/1360000/WthrWrnInfoService
+    auth-key: 191149a41b93b4afc71675819caea93a64ffdbba200793b2b5ca61671c240847
