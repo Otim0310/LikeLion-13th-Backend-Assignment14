@@ -10,3 +10,8 @@ culture:
   api:
     base-url: https://apis.data.go.kr/1360000/WthrWrnInfoService
     auth-key: ${CULTURE_API_KEY}
+
+holiday:
+  api:
+    endpoint: https://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService
+    service-key: ${CULTURE_API_KEY}

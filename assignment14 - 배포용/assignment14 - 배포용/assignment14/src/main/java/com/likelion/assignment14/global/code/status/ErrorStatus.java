@@ -28,11 +28,13 @@ public enum ErrorStatus implements BaseErrorCode {
     INTERNAL_SERVER_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "COMMON500", "서버 에러, 관리자에게 문의 바랍니다."),
     CULTURE_API_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "CULTURE5009", "문화 정보 API 통신 오류가 발생했습니다."),
     WEATHER_API_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "WEATHER5010", "기상청 API 통신 오류가 발생했습니다."),
+    HOLIDAY_API_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "HOLIDAY5011", "공휴일 정보 API 통신 오류가 발생했습니다."),
 
     // 502, 503, 504
     BAD_GATEWAY(HttpStatus.BAD_GATEWAY, "COMMON502", "불완전한 게이트웨이 응답을 받았습니다."),
     SERVICE_UNAVAILABLE(HttpStatus.SERVICE_UNAVAILABLE, "COMMON503", "서비스를 일시적으로 사용할 수 없습니다."),
     GATEWAY_TIMEOUT(HttpStatus.GATEWAY_TIMEOUT, "COMMON504", "게이트웨이 연결이 시간 초과되었습니다.");
+
 
 
 
